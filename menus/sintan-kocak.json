@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle sintan-kocak",
+        "command": "sintan-kocak:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "sintan-kocak",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "sintan-kocak:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
